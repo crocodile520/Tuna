@@ -1,0 +1,242 @@
+
+	/* 外部容器 */
+.scroll-container.data-v-7c8d25e8 {
+		position: relative;
+		width: 100%;
+		height: 500rpx;
+		/* 设置滚动区域高度 */
+		overflow: hidden;
+		background-color: #f8f8f8;
+}
+
+	/* 滚动的内容包裹器 */
+.scroll-wrapper.data-v-7c8d25e8 {
+		display: flex;
+		width: 300%;
+		/* 容器宽度是两倍，用于实现无缝滚动 */
+		animation: scroll-7c8d25e8 40s linear infinite;
+		/* 滚动动画 */
+}
+
+	/* 滚动的图片内容 */
+.scroll-content.data-v-7c8d25e8 {
+		display: flex;
+		width: 1000%;
+}
+
+	/* 图片样式 */
+.scroll-image.data-v-7c8d25e8 {
+		width: 500rpx;
+		height: 500rpx;
+}
+
+	/* 滚动动画 */
+@keyframes scroll-7c8d25e8 {
+from {
+			transform: translateX(0);
+}
+to {
+			transform: translateX(-818%);
+}
+}
+.box.data-v-7c8d25e8 {
+		width: 400rpx;
+		height: auto;
+		margin: 0% 1rpx;
+		background-color: re;
+		display: flex;
+		flex-direction: row;
+}
+.btn_title.data-v-7c8d25e8 {
+		background-color: #ff6f61;
+		text-align: center;
+		padding: 10rpx 0;
+		position: relative;
+}
+.audio.data-v-7c8d25e8 {
+		position: fixed;
+		top: -20rpx;
+		right: 100rpx;
+		width: 10rpx;
+		height: 1rpx;
+		z-index: 1;
+}
+.a-container.data-v-7c8d25e8 {
+		/* display: flex; */
+		margin-top: 100rpx;
+		justify-content: center;
+		align-items: center;
+		height: 120vh;
+		background-color: #f5f5f5;
+}
+
+	/* 使用flexbox布局两个a标签 */
+.link-container.data-v-7c8d25e8 {
+		display: flex;
+		justify-content: space-between;
+		/* 使图片之间有间距 */
+		width: 100%;
+		max-width: 600rpx;
+		/* 限制最大宽度 */
+		padding: 70rpx;
+}
+
+	/* 每个链接的样式 */
+.link.data-v-7c8d25e8 {
+		display: block;
+		width: 45%;
+		/* 每个图片占总宽度的45% */
+		height: auto;
+		/* 设置固定高度 */
+		background-color: #f8f8f8;
+		/* 可选背景色 */
+		border-radius: 10px;
+		/* 可选：圆角效果 */
+		overflow: hidden;
+		/* 防止图片溢出 */
+}
+
+	/* 图片自适应容器 */
+.link-image.data-v-7c8d25e8 {
+		margin-right: 50rpx;
+		/* 设置右边间距 */
+		width: 300rpx;
+		height: 500rpx;
+}
+.story-container.data-v-7c8d25e8 {
+		padding: 20rpx;
+}
+.story-block.data-v-7c8d25e8 {
+		margin-bottom: 20rpx;
+		padding: 20rpx;
+		background-color: #f9f9f9;
+		border-radius: 10rpx;
+}
+.story-title.data-v-7c8d25e8 {
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 10rpx;
+}
+.story-content.data-v-7c8d25e8 {
+		font-size: 16px;
+		line-height: 1.5;
+		color: #333;
+}
+.text.data-v-7c8d25e8 {
+		font-size: 24rpx;
+		color: #333;
+		text-align: center;
+		/* 文字居中 */
+		letter-spacing: 2rpx;
+		/* 设置字母间距 */
+}
+
+	/* 婚礼信息容器 */
+.info.data-v-7c8d25e8 {
+	  padding: 20px;
+	  background-color: rgb(255, 0, 0,0.6);
+	  color: #b5ff00;
+}
+
+	/* 主题部分，居中显示 */
+.info-title.data-v-7c8d25e8 {
+	  text-align: center;
+	  font-size: 60rpx;
+	  font-weight: bold;
+	  margin-bottom: 40rpx;
+}
+
+	/* 内容部分容器，确保内容居中 */
+.info-content-container.data-v-7c8d25e8 {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center; /* 内容居中 */
+	  justify-content: center;
+}
+
+	/* 内容项的样式 */
+.info-content.data-v-7c8d25e8 {
+	  font-size: 24px;
+	  line-height: 36px;
+	  text-align: center;
+	  margin: 5px 0;
+}
+
+	/* 祝福留言部分 */
+.message.data-v-7c8d25e8 {
+		padding: 20rpx;
+		background-color: #f9f9f9;
+		margin-top: 20rpx;
+		border-radius: 10rpx;
+}
+.message-title.data-v-7c8d25e8 {
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 10rpx;
+}
+.message-form.data-v-7c8d25e8 {
+		display: flex;
+		flex-direction: column;
+}
+.message-textarea.data-v-7c8d25e8 {
+		width: 100%;
+		height: 150rpx;
+		margin-bottom: 10rpx;
+		padding: 10rpx;
+		border: 1px solid #ccc;
+		border-radius: 10rpx;
+		font-size: 16px;
+}
+.message-button.data-v-7c8d25e8 {
+		background-color: #ff6f61;
+		color: #fff;
+		padding: 10rpx;
+		border: none;
+		border-radius: 5rpx;
+		font-size: 16px;
+		cursor: pointer;
+}
+	/* 固定 LOGO 样式 */
+.fixed-logo.data-v-7c8d25e8 {
+	  position: fixed; /* 固定位置 */
+	  bottom: 400rpx; /* 距离底部 20px */
+	  right: 20rpx; /* 距离右侧 20px */
+	  width: 200rpx; /* 宽度 */
+	  height: 200rpx; /* 高度 */
+	  border-radius: 50%; /* 可选：将 LOGO 设置为圆形 */
+	  z-index: 999; /* 确保 LOGO 在最上层 */
+	  animation: spin-7c8d25e8 5s linear infinite;
+}
+@keyframes spin-7c8d25e8 {
+from {
+	     transform: rotate(0deg);
+}
+to {
+	     transform: rotate(360deg);
+}
+}
+.fixed_text.data-v-7c8d25e8{
+		position: fixed; /* 固定位置 */
+		bottom: 450rpx; /* 距离底部 20px */
+		font-size: 47rpx;
+		right: 30rpx; /* 距离右侧 20px */
+		z-index: 9999; /* 确保 LOGO 在最上层 */
+		/* color: red; */
+		font-weight: bold;
+	    color: #333;
+	    text-shadow: 2px 2px 0 red, /* 第一层阴影 */
+		               4px 4px 0 #f00, /* 第二层阴影（红色） */
+		               6px 6px 0 #00f; /* 第三层阴影（蓝色） */
+}
+.text_noe.data-v-7c8d25e8{
+		margin-top: -120rpx;
+		z-index: 9999;
+		margin-left: 120rpx;
+		color: #00f;
+}
+.text_tow.data-v-7c8d25e8{
+		margin-top: -47rpx;
+        z-index: 9999;
+		margin-left: 440rpx;
+		color: #00f;
+}
